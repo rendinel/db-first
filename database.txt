@@ -1,0 +1,16 @@
+car_id        PK       BIGINT             NOTNULL            AUTO_INCREMENT
+manufacturer           VARCHAR            NOTNULL
+model                  VARCHAR            NOTNULL
+variant                VARCHAR            NULL
+body_type              VARCHAR            NULL
+fuel_type              VARCHAR            NULL
+gear_type              VARCHAR            NULL
+veichle_condition      VARCHAR            NOTNULL
+price                  MEDIUMINT          NOTNULL            
+mileage                DOUBLE(8,2)        NOTNULL            
+nr_of_doors            MEDIUMINT          NULL               
+nr_of_seat             MEDIUMINT          NULL               
+power                  DOUBLE(3,2)        NOTNULL            
+engine_capacity        MEDIUMINT          NOTNULL            
+weight                 MEDIUMINT          NULL               
+year                   DATE               NOTNULL
